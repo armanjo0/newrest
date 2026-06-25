@@ -149,21 +149,12 @@ const menuData = [
     navTitle: { en: 'Pizza', ar: 'البيتزا', ku: 'پیتزا' },
     icon: '🍕',
     items: [
-      { name: { en: 'Beef Pizza', ar: 'بيتزا لحم', ku: 'پیتزای گۆشت' }, price: '4,000', note: { en: 'Small', ar: 'صغير', ku: 'بچووک' } },
-      { name: { en: 'Beef Pizza', ar: 'بيتزا لحم', ku: 'پیتزای گۆشت' }, price: '6,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Beef Pizza', ar: 'بيتزا لحم', ku: 'پیتزای گۆشت' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Chicken Pizza', ar: 'بيتزا دجاج', ku: 'پیتزای مریشک' }, price: '4,000', note: { en: 'Small', ar: 'صغير', ku: 'بچووک' } },
-      { name: { en: 'Chicken Pizza', ar: 'بيتزا دجاج', ku: 'پیتزای مریشک' }, price: '6,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Chicken Pizza', ar: 'بيتزا دجاج', ku: 'پیتزای مریشک' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Mixed Pizza', ar: 'بيتزا مشكل', ku: 'پیتزای تێکەڵ' }, price: '4,000', note: { en: 'Small', ar: 'صغير', ku: 'بچووک' } },
-      { name: { en: 'Mixed Pizza', ar: 'بيتزا مشكل', ku: 'پیتزای تێکەڵ' }, price: '6,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Mixed Pizza', ar: 'بيتزا مشكل', ku: 'پیتزای تێکەڵ' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Margherita Pizza', ar: 'بيتزا مارگريتا', ku: 'پیتزای مارگەریتا' }, price: '5,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Margherita Pizza', ar: 'بيتزا مارگريتا', ku: 'پیتزای مارگەریتا' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Vegetable Pizza', ar: 'بيتزا خضروات', ku: 'پیتزای سەوزە' }, price: '5,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Vegetable Pizza', ar: 'بيتزا خضروات', ku: 'پیتزای سەوزە' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Pepperoni Pizza', ar: 'بيتزا بيروني', ku: 'پیتزای پێپەرۆنی' }, price: '6,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Pepperoni Pizza', ar: 'بيتزا بيروني', ku: 'پیتزای پێپەرۆنی' }, price: '8,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
+      { name: { en: 'Beef Pizza', ar: 'بيتزا لحم', ku: 'پیتزای گۆشت' }, price: '4,000', note: { en: 'S: 4,000 · M: 6,000 · L: 8,000', ar: 'ص: 4,000 · و: 6,000 · ك: 8,000', ku: 'بچ: 4,000 · مامناوەند: 6,000 · گەورە: 8,000' } },
+      { name: { en: 'Chicken Pizza', ar: 'بيتزا دجاج', ku: 'پیتزای مریشک' }, price: '4,000', note: { en: 'S: 4,000 · M: 6,000 · L: 8,000', ar: 'ص: 4,000 · و: 6,000 · ك: 8,000', ku: 'بچ: 4,000 · مامناوەند: 6,000 · گەورە: 8,000' } },
+      { name: { en: 'Mixed Pizza', ar: 'بيتزا مشكل', ku: 'پیتزای تێکەڵ' }, price: '4,000', note: { en: 'S: 4,000 · M: 6,000 · L: 8,000', ar: 'ص: 4,000 · و: 6,000 · ك: 8,000', ku: 'بچ: 4,000 · مامناوەند: 6,000 · گەورە: 8,000' } },
+      { name: { en: 'Margherita Pizza', ar: 'بيتزا مارگريتا', ku: 'پیتزای مارگەریتا' }, price: '5,000', note: { en: 'M: 5,000 · L: 8,000', ar: 'و: 5,000 · ك: 8,000', ku: 'مامناوەند: 5,000 · گەورە: 8,000' } },
+      { name: { en: 'Vegetable Pizza', ar: 'بيتزا خضروات', ku: 'پیتزای سەوزە' }, price: '5,000', note: { en: 'M: 5,000 · L: 8,000', ar: 'و: 5,000 · ك: 8,000', ku: 'مامناوەند: 5,000 · گەورە: 8,000' } },
+      { name: { en: 'Pepperoni Pizza', ar: 'بيتزا بيروني', ku: 'پیتزای پێپەرۆنی' }, price: '6,000', note: { en: 'M: 6,000 · L: 8,000', ar: 'و: 6,000 · ك: 8,000', ku: 'مامناوەند: 6,000 · گەورە: 8,000' } },
     ],
   },
   {
@@ -190,9 +181,7 @@ const menuData = [
       { name: { en: 'Hummus', ar: 'حمص', ku: 'حومس' }, price: '2,000' },
       { name: { en: 'Fattoush', ar: 'فتوش', ku: 'فەتووش' }, price: '2,000' },
       { name: { en: 'Tabbouleh', ar: 'تبولة', ku: 'تەبولە' }, price: '2,000' },
-      { name: { en: 'Mixed Salad', ar: 'سلطة مشكل', ku: 'سالادی تێکەڵ' }, price: '5,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
-      { name: { en: 'Mixed Salad', ar: 'سلطة مشكل', ku: 'سالادی تێکەڵ' }, price: '3,000', note: { en: 'Medium', ar: 'وسط', ku: 'ناوەند' } },
-      { name: { en: 'Mixed Salad', ar: 'سلطة مشكل', ku: 'سالادی تێکەڵ' }, price: '2,000', note: { en: 'Small', ar: 'صغير', ku: 'بچووک' } },
+      { name: { en: 'Mixed Salad', ar: 'سلطة مشكل', ku: 'سالادی تێکەڵ' }, price: '2,000', note: { en: 'S: 2,000 · M: 3,000 · L: 5,000', ar: 'ص: 2,000 · و: 3,000 · ك: 5,000', ku: 'بچ: 2,000 · مامناوەند: 3,000 · گەورە: 5,000' } },
     ],
   },
   {
@@ -245,8 +234,7 @@ const menuData = [
     navTitle: { en: 'Appetizers', ar: 'مقبلات', ku: 'پێش‌خواردن' },
     icon: '🌶️',
     items: [
-      { name: { en: 'Fries Plate', ar: 'صحن فنكر', ku: 'پلێتەری پەتاتە سوراو' }, price: '1,500', note: { en: 'Small', ar: 'صغير', ku: 'بچووک' } },
-      { name: { en: 'Fries Plate', ar: 'صحن فنكر', ku: 'پلێتەری پەتاتە سوراو' }, price: '2,000', note: { en: 'Large', ar: 'كبير', ku: 'گەورە' } },
+      { name: { en: 'Fries Plate', ar: 'صحن فنكر', ku: 'پلێتەری پەتاتە سوراو' }, price: '1,500', note: { en: 'S: 1,500 · L: 2,000', ar: 'ص: 1,500 · ك: 2,000', ku: 'بچ: 1,500 · گەو: 2,000' } },
       { name: { en: 'Fries with Cheese', ar: 'فنكر + جبنة', ku: 'پەتاتە سوراو + پەنیر' }, price: '2,500' },
       { name: { en: 'Kibbeh', ar: 'كبة', ku: 'کوبە' }, price: '6,000', note: { en: '4 pieces', ar: 'عدد 4', ku: '٤ دانە' } },
       { name: { en: 'Potato Wrap', ar: 'لفة بطاطا', ku: 'ڕاپێچی پەتاتە' }, price: '1,000' },
@@ -837,6 +825,14 @@ function openItemDetails(sectionIndex, itemIndex) {
   modalImage.alt = localize(item.name);
   icon.appendChild(modalImage);
   price.textContent = `${item.price} ${translate('labels.currency')}`;
+  const noteText = localize(item.note);
+  if (noteText && noteText.includes('·')) {
+    price.textContent = noteText;
+    price.style.fontSize = '0.85em';
+  } else {
+    price.textContent = `${item.price} ${translate('labels.currency')}`;
+    price.style.fontSize = '';
+  }
   detailsList.innerHTML = '';
 
   getItemDetails(section, item).forEach(detail => {
@@ -942,6 +938,9 @@ function createMenuSection(section, sectionIndex) {
 
     const itemNote = document.createElement('div');
     itemNote.className = 'item-note';
+    const initialNoteText = localize(item.note);
+    itemNote.textContent = initialNoteText;
+    itemNote.hidden = !initialNoteText;
 
     itemInfo.append(itemName, itemNote);
 
@@ -951,8 +950,16 @@ function createMenuSection(section, sectionIndex) {
     const priceValue = document.createTextNode(item.price);
     const currency = document.createElement('span');
     currency.className = 'currency';
+    currency.textContent = ' ' + translate('labels.currency');
 
     itemPrice.append(priceValue, currency);
+
+    // If this item has a size-range note (contains ·), hide plain price; note will show the range
+    const initialNote = localize(item.note);
+    if (initialNote && initialNote.includes('·')) {
+      itemPrice.firstChild.textContent = '';
+      currency.textContent = '';
+    }
     // Grid layout: image on top, name info in middle, price at bottom
     card.append(itemPhoto, itemInfo, itemPrice);
     container.appendChild(card);
@@ -983,7 +990,19 @@ function updateMenuText() {
       card.querySelector('.item-name').textContent = localize(item.name);
       card.querySelector('.item-note').textContent = noteText;
       card.querySelector('.item-note').hidden = !noteText;
-      card.querySelector('.currency').textContent = ' ' + translate('labels.currency');
+
+      const priceEl = card.querySelector('.item-price');
+      const currencyEl = card.querySelector('.currency');
+      if (noteText && noteText.includes('·')) {
+        // Size-ranged item: show the range in the note, hide the plain price
+        priceEl.firstChild.textContent = '';
+        currencyEl.textContent = '';
+        card.querySelector('.item-note').textContent = noteText;
+        card.querySelector('.item-note').hidden = false;
+      } else {
+        priceEl.firstChild.textContent = item.price;
+        currencyEl.textContent = ' ' + translate('labels.currency');
+      }
       card.querySelector('.item-photo').alt = localize(item.name);
       card.setAttribute('aria-label', `${translate('labels.viewDetails')} ${localize(item.name)}`);
     });
