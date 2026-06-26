@@ -304,7 +304,7 @@ const itemImages = {
   pizzaMargherita: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=420&q=80',
   pizzaVegetable: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=420&q=80',
   pizzaPepperoni: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=420&q=80',
-  chickenShawarma: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=420&q=80',
+  chickenShawarma: 'assets/images/shawrma.jpg',
   hummus: 'assets/images/hummus.jpg',
   fattoush: 'assets/images/fattoush.jpg',
   tabbouleh: 'assets/images/tabbouleh.jpg',
